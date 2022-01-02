@@ -1,0 +1,9 @@
+footer {
+  height: 20vh;
+  background-color: black;
+  color: white;
+}
+.copy {
+  height: 3vh;
+  background-color: rgb(77, 72, 72);
+}

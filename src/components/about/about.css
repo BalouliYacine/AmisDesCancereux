@@ -1,0 +1,20 @@
+.about {
+  background-color: var(--main-color);
+  padding: 5% 10%;
+}
+.aboutTxt {
+  padding: 5%;
+  background-color: white;
+  min-height: 40vh;
+  line-height: 1.5;
+  border-radius: 10px;
+}
+.aboutTxt h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: "Prompt", sans-serif;
+}
+.aboutTxt p {
+  font-size: 1.2rem;
+  font-family: "Nunito Sans", sans-serif;
+}

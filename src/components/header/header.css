@@ -1,1 +1,66 @@
+header {
+  padding: 10% 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./headerImg/logoimg.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+header::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+header h1 {
+  font-size: clamp(3.5rem, 9vw, 10vw);
+  font-family: "Sofia", cursive;
+  z-index: 4;
+  text-align: center;
+}
 
+header h2 {
+  font-size: clamp(2rem, 2.5vw, 3vw);
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  font-weight: 100;
+  z-index: 2;
+}
+.pinkCancerLogo {
+  position: absolute;
+  right: 25%;
+  bottom: 0;
+  width: 220px;
+  z-index: 1;
+}
+.pinkCancerLogo img {
+  width: 100%;
+  transform: rotate(10deg);
+}
+.arrow {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 25px;
+  z-index: 1;
+}
+.arrow img {
+  width: 100%;
+  transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 1050px) {
+  .arrow {
+    display: none;
+  }
+}

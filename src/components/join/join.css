@@ -1,0 +1,74 @@
+.join {
+  background-color: var(--main-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.jointxt {
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  /* width: 70%; */
+  line-height: 1.5;
+  z-index: 2;
+}
+.join div h3 {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Prompt", sans-serif;
+}
+.join div p {
+  font-size: 1.3rem;
+}
+/*  */
+.AlljoinIMG {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 10px;
+}
+.joinImg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  transition: all 0.5s;
+}
+.joinImg:hover {
+  transform: rotate(3deg);
+}
+.img1 {
+  grid-column: 1;
+  grid-row: 1/3;
+  height: 100%;
+}
+.img2 {
+  height: 100%;
+  width: 100%;
+}
+/*  */
+@media only screen and (max-width: 1250px) {
+  .img1 {
+    display: none;
+  }
+  .AlljoinIMG {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 850px) {
+  .img3 {
+    display: none;
+  }
+  .AlljoinIMG {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

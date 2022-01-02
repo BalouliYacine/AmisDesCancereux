@@ -1,0 +1,24 @@
+.donationsection {
+  background-color: var(--main-color);
+  min-height: 50vh;
+  padding: 5% var(--main-padding);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Prompt", sans-serif;
+}
+.donationbanl {
+  background-color: white;
+  width: 100%;
+  padding: 2% var(--main-padding);
+}
+.donationbanl h2 {
+  font-size: 5rem;
+  margin: 5% 0;
+}
+.donationbanl p {
+  font-size: 1.5rem;
+  margin-bottom: 10%;
+}
