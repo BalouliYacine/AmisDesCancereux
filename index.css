@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+:root {
+  --main-color: #eb7d85;
+  --main-padding: 15%;
+}
+@media only screen and (max-width: 650px) {
+  :root {
+    --main-padding: 10%;
+  }
+}
