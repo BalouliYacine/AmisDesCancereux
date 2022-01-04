@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AmisDesCancereux/static/css/main.35a2d1a1.css",
-    "main.js": "/AmisDesCancereux/static/js/main.7ec10156.js",
+    "main.css": "/AmisDesCancereux/static/css/main.fd7bf142.css",
+    "main.js": "/AmisDesCancereux/static/js/main.00ef9453.js",
     "static/media/img1.jpg": "/AmisDesCancereux/static/media/img1.3b2c82dff15a43ba49ce.jpg",
     "static/media/img5.jpg": "/AmisDesCancereux/static/media/img5.30c1c65825965767b1e6.jpg",
     "static/media/img4.jpg": "/AmisDesCancereux/static/media/img4.765df929998229c72692.jpg",
@@ -11,14 +11,13 @@
     "static/media/logo.png": "/AmisDesCancereux/static/media/logo.b39860c750dcbedeeabb.png",
     "static/media/act1.jpg": "/AmisDesCancereux/static/media/act1.6a23582c4dfd306d8201.jpg",
     "static/media/10.png": "/AmisDesCancereux/static/media/10.28d79468937601df060d.png",
-    "static/media/list.png": "/AmisDesCancereux/static/media/list.3605a2a80e2a874b1d51.png",
     "static/media/arrow.png": "/AmisDesCancereux/static/media/arrow.f63c5048dfe5b3382f30.png",
     "index.html": "/AmisDesCancereux/index.html",
-    "main.35a2d1a1.css.map": "/AmisDesCancereux/static/css/main.35a2d1a1.css.map",
-    "main.7ec10156.js.map": "/AmisDesCancereux/static/js/main.7ec10156.js.map"
+    "main.fd7bf142.css.map": "/AmisDesCancereux/static/css/main.fd7bf142.css.map",
+    "main.00ef9453.js.map": "/AmisDesCancereux/static/js/main.00ef9453.js.map"
   },
   "entrypoints": [
-    "static/css/main.35a2d1a1.css",
-    "static/js/main.7ec10156.js"
+    "static/css/main.fd7bf142.css",
+    "static/js/main.00ef9453.js"
   ]
 }
